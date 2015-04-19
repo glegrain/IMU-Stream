@@ -43,7 +43,7 @@
         NSLog(@"Error starting server: %@", error);
         return;
     }
-    NSLog(@"Listening on port %d ...", port);
+    self.statusLabel.text = [NSString stringWithFormat:@"Listening on port %d ...", port];
 }
 
 - (void)onSocket:(AsyncSocket *)sock didAcceptNewSocket:(AsyncSocket *)newSocket
