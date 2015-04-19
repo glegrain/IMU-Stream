@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9D5A3AD1AE453650091EDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3AC1AE453650091EDD1 /* Foundation.framework */; };
+		F9D5A3AF1AE453650091EDD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3AE1AE453650091EDD1 /* CoreGraphics.framework */; };
+		F9D5A3B11AE453650091EDD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3B01AE453650091EDD1 /* UIKit.framework */; };
+		F9D5A3B71AE453650091EDD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9D5A3B51AE453650091EDD1 /* InfoPlist.strings */; };
+		F9D5A3B91AE453650091EDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5A3B81AE453650091EDD1 /* main.m */; };
+		F9D5A3BD1AE453650091EDD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5A3BC1AE453650091EDD1 /* AppDelegate.m */; };
+		F9D5A3C01AE453650091EDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D5A3BE1AE453650091EDD1 /* Main.storyboard */; };
+		F9D5A3C31AE453650091EDD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5A3C21AE453650091EDD1 /* ViewController.m */; };
+		F9D5A3C51AE453650091EDD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D5A3C41AE453650091EDD1 /* Images.xcassets */; };
+		F9D5A3CC1AE453650091EDD1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3CB1AE453650091EDD1 /* XCTest.framework */; };
+		F9D5A3CD1AE453650091EDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3AC1AE453650091EDD1 /* Foundation.framework */; };
+		F9D5A3CE1AE453650091EDD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3B01AE453650091EDD1 /* UIKit.framework */; };
+		F9D5A3D61AE453650091EDD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9D5A3D41AE453650091EDD1 /* InfoPlist.strings */; };
+		F9D5A3D81AE453650091EDD1 /* IMU_StreamerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D5A3D71AE453650091EDD1 /* IMU_StreamerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9D5A3CF1AE453650091EDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D5A3A11AE453650091EDD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D5A3A81AE453650091EDD1;
+			remoteInfo = "IMU-Streamer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9D5A3A91AE453650091EDD1 /* IMU-Streamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMU-Streamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D5A3AC1AE453650091EDD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9D5A3AE1AE453650091EDD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9D5A3B01AE453650091EDD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9D5A3B41AE453650091EDD1 /* IMU-Streamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMU-Streamer-Info.plist"; sourceTree = "<group>"; };
+		F9D5A3B61AE453650091EDD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9D5A3B81AE453650091EDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9D5A3BA1AE453650091EDD1 /* IMU-Streamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMU-Streamer-Prefix.pch"; sourceTree = "<group>"; };
+		F9D5A3BB1AE453650091EDD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9D5A3BC1AE453650091EDD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9D5A3BF1AE453650091EDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9D5A3C11AE453650091EDD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9D5A3C21AE453650091EDD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9D5A3C41AE453650091EDD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9D5A3CA1AE453650091EDD1 /* IMU-StreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMU-StreamerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D5A3CB1AE453650091EDD1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9D5A3D31AE453650091EDD1 /* IMU-StreamerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMU-StreamerTests-Info.plist"; sourceTree = "<group>"; };
+		F9D5A3D51AE453650091EDD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9D5A3D71AE453650091EDD1 /* IMU_StreamerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMU_StreamerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D5A3A61AE453650091EDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5A3AF1AE453650091EDD1 /* CoreGraphics.framework in Frameworks */,
+				F9D5A3B11AE453650091EDD1 /* UIKit.framework in Frameworks */,
+				F9D5A3AD1AE453650091EDD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5A3C71AE453650091EDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5A3CC1AE453650091EDD1 /* XCTest.framework in Frameworks */,
+				F9D5A3CE1AE453650091EDD1 /* UIKit.framework in Frameworks */,
+				F9D5A3CD1AE453650091EDD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9D5A3A01AE453650091EDD1 = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3B21AE453650091EDD1 /* IMU-Streamer */,
+				F9D5A3D11AE453650091EDD1 /* IMU-StreamerTests */,
+				F9D5A3AB1AE453650091EDD1 /* Frameworks */,
+				F9D5A3AA1AE453650091EDD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D5A3AA1AE453650091EDD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3A91AE453650091EDD1 /* IMU-Streamer.app */,
+				F9D5A3CA1AE453650091EDD1 /* IMU-StreamerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D5A3AB1AE453650091EDD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3AC1AE453650091EDD1 /* Foundation.framework */,
+				F9D5A3AE1AE453650091EDD1 /* CoreGraphics.framework */,
+				F9D5A3B01AE453650091EDD1 /* UIKit.framework */,
+				F9D5A3CB1AE453650091EDD1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D5A3B21AE453650091EDD1 /* IMU-Streamer */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3BB1AE453650091EDD1 /* AppDelegate.h */,
+				F9D5A3BC1AE453650091EDD1 /* AppDelegate.m */,
+				F9D5A3BE1AE453650091EDD1 /* Main.storyboard */,
+				F9D5A3C11AE453650091EDD1 /* ViewController.h */,
+				F9D5A3C21AE453650091EDD1 /* ViewController.m */,
+				F9D5A3C41AE453650091EDD1 /* Images.xcassets */,
+				F9D5A3B31AE453650091EDD1 /* Supporting Files */,
+			);
+			path = "IMU-Streamer";
+			sourceTree = "<group>";
+		};
+		F9D5A3B31AE453650091EDD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3B41AE453650091EDD1 /* IMU-Streamer-Info.plist */,
+				F9D5A3B51AE453650091EDD1 /* InfoPlist.strings */,
+				F9D5A3B81AE453650091EDD1 /* main.m */,
+				F9D5A3BA1AE453650091EDD1 /* IMU-Streamer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9D5A3D11AE453650091EDD1 /* IMU-StreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3D71AE453650091EDD1 /* IMU_StreamerTests.m */,
+				F9D5A3D21AE453650091EDD1 /* Supporting Files */,
+			);
+			path = "IMU-StreamerTests";
+			sourceTree = "<group>";
+		};
+		F9D5A3D21AE453650091EDD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D5A3D31AE453650091EDD1 /* IMU-StreamerTests-Info.plist */,
+				F9D5A3D41AE453650091EDD1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D5A3A81AE453650091EDD1 /* IMU-Streamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D5A3DB1AE453650091EDD1 /* Build configuration list for PBXNativeTarget "IMU-Streamer" */;
+			buildPhases = (
+				F9D5A3A51AE453650091EDD1 /* Sources */,
+				F9D5A3A61AE453650091EDD1 /* Frameworks */,
+				F9D5A3A71AE453650091EDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IMU-Streamer";
+			productName = "IMU-Streamer";
+			productReference = F9D5A3A91AE453650091EDD1 /* IMU-Streamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9D5A3C91AE453650091EDD1 /* IMU-StreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D5A3DE1AE453650091EDD1 /* Build configuration list for PBXNativeTarget "IMU-StreamerTests" */;
+			buildPhases = (
+				F9D5A3C61AE453650091EDD1 /* Sources */,
+				F9D5A3C71AE453650091EDD1 /* Frameworks */,
+				F9D5A3C81AE453650091EDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D5A3D01AE453650091EDD1 /* PBXTargetDependency */,
+			);
+			name = "IMU-StreamerTests";
+			productName = "IMU-StreamerTests";
+			productReference = F9D5A3CA1AE453650091EDD1 /* IMU-StreamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D5A3A11AE453650091EDD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Guillaume Legrain";
+				TargetAttributes = {
+					F9D5A3C91AE453650091EDD1 = {
+						TestTargetID = F9D5A3A81AE453650091EDD1;
+					};
+				};
+			};
+			buildConfigurationList = F9D5A3A41AE453650091EDD1 /* Build configuration list for PBXProject "IMU-Streamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9D5A3A01AE453650091EDD1;
+			productRefGroup = F9D5A3AA1AE453650091EDD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D5A3A81AE453650091EDD1 /* IMU-Streamer */,
+				F9D5A3C91AE453650091EDD1 /* IMU-StreamerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D5A3A71AE453650091EDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5A3C51AE453650091EDD1 /* Images.xcassets in Resources */,
+				F9D5A3B71AE453650091EDD1 /* InfoPlist.strings in Resources */,
+				F9D5A3C01AE453650091EDD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5A3C81AE453650091EDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5A3D61AE453650091EDD1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D5A3A51AE453650091EDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5A3C31AE453650091EDD1 /* ViewController.m in Sources */,
+				F9D5A3BD1AE453650091EDD1 /* AppDelegate.m in Sources */,
+				F9D5A3B91AE453650091EDD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D5A3C61AE453650091EDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D5A3D81AE453650091EDD1 /* IMU_StreamerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9D5A3D01AE453650091EDD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D5A3A81AE453650091EDD1 /* IMU-Streamer */;
+			targetProxy = F9D5A3CF1AE453650091EDD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9D5A3B51AE453650091EDD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D5A3B61AE453650091EDD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9D5A3BE1AE453650091EDD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D5A3BF1AE453650091EDD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9D5A3D41AE453650091EDD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D5A3D51AE453650091EDD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9D5A3D91AE453650091EDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9D5A3DA1AE453650091EDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9D5A3DC1AE453650091EDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMU-Streamer/IMU-Streamer-Prefix.pch";
+				INFOPLIST_FILE = "IMU-Streamer/IMU-Streamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9D5A3DD1AE453650091EDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMU-Streamer/IMU-Streamer-Prefix.pch";
+				INFOPLIST_FILE = "IMU-Streamer/IMU-Streamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9D5A3DF1AE453650091EDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IMU-Streamer.app/IMU-Streamer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMU-Streamer/IMU-Streamer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IMU-StreamerTests/IMU-StreamerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F9D5A3E01AE453650091EDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IMU-Streamer.app/IMU-Streamer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMU-Streamer/IMU-Streamer-Prefix.pch";
+				INFOPLIST_FILE = "IMU-StreamerTests/IMU-StreamerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D5A3A41AE453650091EDD1 /* Build configuration list for PBXProject "IMU-Streamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D5A3D91AE453650091EDD1 /* Debug */,
+				F9D5A3DA1AE453650091EDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D5A3DB1AE453650091EDD1 /* Build configuration list for PBXNativeTarget "IMU-Streamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D5A3DC1AE453650091EDD1 /* Debug */,
+				F9D5A3DD1AE453650091EDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9D5A3DE1AE453650091EDD1 /* Build configuration list for PBXNativeTarget "IMU-StreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D5A3DF1AE453650091EDD1 /* Debug */,
+				F9D5A3E01AE453650091EDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9D5A3A11AE453650091EDD1 /* Project object */;
+}
