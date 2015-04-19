@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F953A5581AE4579700867B60 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F953A5561AE4579700867B60 /* AsyncSocket.m */; };
 		F9D5A3AD1AE453650091EDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3AC1AE453650091EDD1 /* Foundation.framework */; };
 		F9D5A3AF1AE453650091EDD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3AE1AE453650091EDD1 /* CoreGraphics.framework */; };
 		F9D5A3B11AE453650091EDD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D5A3B01AE453650091EDD1 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F953A5561AE4579700867B60 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		F953A5571AE4579700867B60 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		F9D5A3A91AE453650091EDD1 /* IMU-Streamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMU-Streamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D5A3AC1AE453650091EDD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9D5A3AE1AE453650091EDD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +115,8 @@
 		F9D5A3B21AE453650091EDD1 /* IMU-Streamer */ = {
 			isa = PBXGroup;
 			children = (
+				F953A5561AE4579700867B60 /* AsyncSocket.m */,
+				F953A5571AE4579700867B60 /* AsyncSocket.h */,
 				F9D5A3BB1AE453650091EDD1 /* AppDelegate.h */,
 				F9D5A3BC1AE453650091EDD1 /* AppDelegate.m */,
 				F9D5A3BE1AE453650091EDD1 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				F9D5A3C31AE453650091EDD1 /* ViewController.m in Sources */,
 				F9D5A3BD1AE453650091EDD1 /* AppDelegate.m in Sources */,
 				F9D5A3B91AE453650091EDD1 /* main.m in Sources */,
+				F953A5581AE4579700867B60 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				F9D5A3DD1AE453650091EDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9D5A3DE1AE453650091EDD1 /* Build configuration list for PBXNativeTarget "IMU-StreamerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				F9D5A3E01AE453650091EDD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
